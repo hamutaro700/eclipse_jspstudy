@@ -4,9 +4,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>jsp두번째 예제</title>
 	</head>
 	<body>
+		<h2>전역변수와 지역변수</h2>
+		<%
+			String var2 = "JSP";
+		%>
+		<%
+			String var1 = var2 + " Web Programming";
+		%>
 		<%
 			int count = 3;
 			for(int i=0; i<count; i++){
