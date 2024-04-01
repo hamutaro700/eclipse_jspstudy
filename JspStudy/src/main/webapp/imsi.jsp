@@ -14,6 +14,7 @@
 			}
 			out.println("count=>"+count);
 			out.println("count=>"+count);
+			out.println("count=>"+count);
 		%>
 		출력할 변수명:<%=count%>
 	</body>
