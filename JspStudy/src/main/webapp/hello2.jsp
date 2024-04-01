@@ -16,5 +16,6 @@
 			 document.write("<h1>" + str + "</h1>"); 와 동일한 코드 (클라이언트에서 실행됨)
 			*/
 		 %>
+		 <%=str %>
 	</body>
 </html>
