@@ -13,6 +13,7 @@
 			out.println("<h1>JSP테스트"+i+"!<br>");
 			}
 			out.println("count=>"+count);
+			out.println("count=>"+count);
 		%>
 		출력할 변수명:<%=count%>
 	</body>
