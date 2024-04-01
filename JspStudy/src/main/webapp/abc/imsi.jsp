@@ -11,6 +11,17 @@
 	</head>
 	<body>
 		<%
+			String var2 = "JSP";
+		%>
+		<%
+			String var1 = var2 + " Web Programming";
+		%>
+		출력할값 : <%=var1 %>
+		수식계산 : <%=(3+5) %>
+		<hr>
+		수식계산3 : <%=(3*5) %>
+		수식계산4 : <%=(6 / 2) %>
+		<%
 			int count = 3; //지역변수 개념
 			for(int i = 0; i<count; i++){
 				out.println("<h1> Jsp 테스트 " + i + "!</h1>");
