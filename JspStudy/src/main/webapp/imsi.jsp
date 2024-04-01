@@ -15,6 +15,7 @@
 			String var1 = var2 + " Web Programming";
 		%>
 		<%
+		
 			int count = 3;
 			for(int i=0; i<count; i++){
 			out.println("<h1>JSP테스트"+i+"!<br>");
