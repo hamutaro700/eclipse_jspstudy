@@ -10,6 +10,9 @@
 		<title>두번째 예제</title>
 	</head>
 	<body>
+		수식계산:<%=(3+5)%>
+		<hr>
+		수식계산2:<%=(3*5)%>
 		<%
 			int count = 3; //지역변수 개념
 			for(int i = 0; i<count; i++){
